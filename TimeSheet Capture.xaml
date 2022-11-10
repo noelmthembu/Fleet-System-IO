@@ -1,0 +1,23 @@
+﻿<Window x:Class="Fleet.io_cx_system.TimeSheet_Capture"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Fleet.io_cx_system"
+        mc:Ignorable="d"
+        Title="TimeSheet_Capture" Height="346" Width="364"
+        Background="AliceBlue">
+    <Grid>
+        <Button x:Name="btnSave" Content="Save" HorizontalAlignment="Left" Margin="57,213,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnDone" Content="Done" HorizontalAlignment="Left" Margin="227,265,0,0" VerticalAlignment="Top" Width="75" Click="btnDone_Click"/>
+        <Label Content="Schedule Date For Vehicle" HorizontalAlignment="Left" Margin="29,57,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Calibri" FontSize="14" Width="159" RenderTransformOrigin="0.428,0.556"/>
+        <DatePicker x:Name="dtDayeForVeh" HorizontalAlignment="Left" Margin="36,89,0,0" VerticalAlignment="Top" Width="152"/>
+        <Label Content="Record incidents" HorizontalAlignment="Left" Margin="29,143,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Calibri" FontSize="14" Width="106" RenderTransformOrigin="0.428,0.556"/>
+        <TextBox x:Name="txtIncidents" HorizontalAlignment="Left" Height="22" Margin="36,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="119" Background="#FFEAEAEA"/>
+        <Label Content="Fuel Usage" HorizontalAlignment="Left" Margin="209,196,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Calibri" FontSize="14" Width="106" RenderTransformOrigin="0.428,0.556"/>
+        <TextBox x:Name="txtFuelUsage" HorizontalAlignment="Left" Height="22" Margin="216,222,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#FFEAEAEA"/>
+        <Label Content="Driver" HorizontalAlignment="Left" Margin="216,57,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Calibri" FontSize="14" RenderTransformOrigin="0.041,0.148"/>
+        <ListBox x:Name="lbxDriver" HorizontalAlignment="Left" Height="100" Margin="216,89,0,0" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,21 @@
+﻿<Window x:Class="Fleet.io_cx_system.Service_Manager"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Fleet.io_cx_system"
+        mc:Ignorable="d"
+        Title="Service_Manager" Height="529.5" Width="894"
+        Background="AliceBlue">
+    <Grid>
+        <Button x:Name="btnVehRep" Content="View Vehicle Reports" HorizontalAlignment="Left" Height="21" Margin="17,174,0,0" VerticalAlignment="Top" Width="156" Click="btnVehRep_Click"/>
+        <Button x:Name="btnVehSer" Content="View Vehicle Services" HorizontalAlignment="Left" Margin="17,225,0,0" VerticalAlignment="Top" Width="156" Click="btnVehSer_Click"/>
+        <Button x:Name="btnCapVehService" Content="Capture Vehicle Service" HorizontalAlignment="Left" Margin="17,272,0,0" VerticalAlignment="Top" Width="156" Click="btnCapVehService_Click"/>
+        <Button x:Name="btnCapSup" Content="Capture Supplies" HorizontalAlignment="Left" Margin="17,317,0,0" VerticalAlignment="Top" Width="156" Click="btnCapSup_Click"/>
+        <Button x:Name="btnViewSup" Content="View Supplies" HorizontalAlignment="Left" Margin="17,364,0,0" VerticalAlignment="Top" Width="156" Click="btnViewSup_Click"/>
+        <Button x:Name="btnVehState" Content="Vehicle Statements" HorizontalAlignment="Left" Margin="17,408,0,0" VerticalAlignment="Top" Width="156"/>
+        <Button x:Name="btnCalDriverIncome" Content="Calculate Driver Income" HorizontalAlignment="Left" Margin="17,125,0,0" VerticalAlignment="Top" Width="156" Click="btnCalDriverIncome_Click"/>
+        <Label Content="Service Manager" HorizontalAlignment="Left" Margin="232,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.421,0.192" FontSize="36" FontFamily="Calibri" FontWeight="ExtraBold"/>
+
+    </Grid>
+</Window>

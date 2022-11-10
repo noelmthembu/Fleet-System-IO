@@ -1,0 +1,23 @@
+﻿<Window x:Class="Fleet.io_cx_system.Vehicle_Maintenance"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Fleet.io_cx_system"
+        mc:Ignorable="d"
+        Title="Vehicle_Maintenance" Height="284.667" Width="352">
+    <Grid>
+        <Label Content="Date" HorizontalAlignment="Left" Margin="14,63,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Calibri" FontSize="14" RenderTransformOrigin="0.041,0.148"/>
+        <Label Content="Description" HorizontalAlignment="Left" Margin="14,130,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Calibri" FontSize="14" Width="85"/>
+        <Label Content="Service Provider" HorizontalAlignment="Left" Margin="195,130,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.406,0.154" FontWeight="Bold" FontFamily="Calibri" FontSize="14"/>
+        <Label Content="Price" HorizontalAlignment="Left" Margin="195,63,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.569,1.577" FontWeight="Bold" FontFamily="Calibri" FontSize="14"/>
+        <DatePicker x:Name="dtDate" HorizontalAlignment="Left" Margin="14,95,0,0" VerticalAlignment="Top" Height="22" Width="120"/>
+        <TextBox x:Name="txtMileage" HorizontalAlignment="Left" Height="22" Margin="14,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#FFEAEAEA"/>
+        <TextBox x:Name="txtMechanic" HorizontalAlignment="Left" Height="22" Margin="195,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#FFEAEAEA"/>
+        <TextBox x:Name="txtWarranty" HorizontalAlignment="Left" Height="22" Margin="195,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="114" Background="#FFEAEAEA"/>
+        <Button x:Name="btnSave" Content="Save" HorizontalAlignment="Left" Margin="24,215,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnBack" Content="Back" HorizontalAlignment="Left" Margin="223,215,0,0" VerticalAlignment="Top" Width="75" Click="btnBack_Click"/>
+        <Label Content="Vehicle Maintenance" HorizontalAlignment="Left" Margin="71,10,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="ExtraBold" FontFamily="Calibri"/>
+
+    </Grid>
+</Window>

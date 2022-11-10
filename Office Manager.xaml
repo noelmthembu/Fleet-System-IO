@@ -1,0 +1,20 @@
+﻿<Window x:Class="Fleet.io_cx_system.Office_Manager"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Fleet.io_cx_system"
+        mc:Ignorable="d"
+        Title="Office_Manager" Height="521.333" Width="800"
+        Background="AliceBlue">
+    <Grid>
+        <DataGrid x:Name="dbDataGrid" HorizontalAlignment="Left" Height="399" Margin="186,72,0,-11" VerticalAlignment="Top" Width="596"/>
+        <Button x:Name="btnVehRep" Content="Vehicle Reports" HorizontalAlignment="Left" Height="21" Margin="10,104,0,0" VerticalAlignment="Top" Width="138" Click="btnVehRep_Click"/>
+        <Button x:Name="btnViewTrip" Content="View Vehicle Scheduling" HorizontalAlignment="Left" Margin="10,159,0,0" VerticalAlignment="Top" Width="138" Click="btnViewTrip_Click"/>
+        <Button x:Name="btnCapSup" Content="Capture Supplies" HorizontalAlignment="Left" Margin="10,210,0,0" VerticalAlignment="Top" Width="138" Click="btnCapSup_Click"/>
+        <Button x:Name="btnViewSup" Content="View Supplies" HorizontalAlignment="Left" Margin="10,257,0,0" VerticalAlignment="Top" Width="138" Click="btnViewSup_Click"/>
+        <Button x:Name="btnVehState" Content="Vehicle Statements" HorizontalAlignment="Left" Margin="10,303,0,0" VerticalAlignment="Top" Width="138" Click="btnVehState_Click"/>
+        <Label Content="Office Manager" HorizontalAlignment="Left" Margin="432,10,0,0" VerticalAlignment="Top" FontSize="36" FontWeight="ExtraBold" FontFamily="Calibri"/>
+
+    </Grid>
+</Window>
